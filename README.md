@@ -1,5 +1,7 @@
 # Thermal Imaging Drone for Search and Rescue Operations
 
+![Cover Photo SAR Thermal Imaging Drone](/images/SAR-thermal-drone-e.png)
+
 ## Overview
 
 This project introduces a **thermal imaging drone** designed for efficient search and rescue (SAR) operations. The system integrates a thermal camera with object detection and GPS tracking, enabling real-time location and detection of individuals in disaster zones.
