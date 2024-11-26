@@ -25,6 +25,7 @@ This project introduces a **thermal imaging drone** designed for efficient searc
 | **Flight Controller** | Pixhawk Cube Orange with ADS-B   |
 | **Thermal Camera**    | FLIR Vue Pro R                   |
 | **Gimbal**            | 3D-printed two-axis gimbal       |
+| **Airunit and Controller**| Herelink 1.1                 |
 | **Battery**           | Tattu 22.2V 25C 6S 22000mAh Lipo |
 | **GPS Module**        | Here+ RTK GPS                    |
 | **Telemetry**         | RFD 868 ux-IND                   |
@@ -45,12 +46,13 @@ This project introduces a **thermal imaging drone** designed for efficient searc
 ### 1. Software Setup
 
 - Install Mission Planner ([Guide](https://github.com/sidharthmohannair/Mission-Planner-Installation-using-Mono#readme))
-- Install QGroundControl ([Guide](https://docs.qgroundcontrol.com/))
-- Set up YOLOv5 ([Guide](https://docs.ultralytics.com/quick-start/#from-pytorch-hub))
-- Install MySQL for GPS database creation.
+- Install QGroundControl ([Guide](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html))
+- Set up YOLOv5 ([Guide](https://github.com/ultralytics/yolov5?tab=readme-ov-file))
+- Install MySQL for GPS database creation. ([Guide](/Documentation/Database_Creation_Guide.md))
 
 ### 2. Hardware Configuration
 
+- Refer the [wiring diagram](/Hardware/Wiring_Diagram.jpg) for connection
 - Mount and calibrate the thermal camera and gimbal.
 - Connect the flight controller, GPS module, and telemetry components.
 - Test connections using Mission Planner and QGroundControl.
