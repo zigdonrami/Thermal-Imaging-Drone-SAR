@@ -3,7 +3,7 @@
   It's a custom-designed gimbal for the Flir View Pro R for pitch axis 
   movement.
 
-![image](/Flir-One-Axis-Gimbal/Flir-One-Axis-Gimbal.png)
+![image](Flir-One-Axis-Gimbal/Flir-One-Axis-Gimbal.png)
 
 
 ### Parts of One Axis Gimbal
