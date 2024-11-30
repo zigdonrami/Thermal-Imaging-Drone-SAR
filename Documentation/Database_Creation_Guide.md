@@ -75,7 +75,7 @@ This guide provides step-by-step instructions for setting up the database to sto
 
 1. **Define the Table Structure:**
     ```sql
-    CREATE TABLE Coordinates (
+    CREATE TABLE GPS (
         id INT AUTO_INCREMENT PRIMARY KEY,
         latitude DECIMAL(10, 8),
         longitude DECIMAL(11, 8),
@@ -90,7 +90,7 @@ This guide provides step-by-step instructions for setting up the database to sto
 
 3. **Describe Table to Confirm Structure:**
     ```sql
-    DESCRIBE Coordinates;
+    DESCRIBE GPS;
     ```
 
 ---
@@ -99,12 +99,12 @@ This guide provides step-by-step instructions for setting up the database to sto
 
 1. **Insert Data:**
     ```sql
-    INSERT INTO Coordinates (latitude, longitude) VALUES (8.5931, 76.8938);
+    INSERT INTO GPS (latitude, longitude) VALUES (8.5931, 76.8938);
     ```
 
 2. **View Data:**
     ```sql
-    SELECT * FROM Coordinates;
+    SELECT * FROM GPS;
     ```
 
 ---
